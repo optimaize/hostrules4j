@@ -1,0 +1,11 @@
+#idea files
+*.iml
+*.ipr
+*.iws
+.idea
+
+#maven stuff
+target/
+
+#others
+*.patch
