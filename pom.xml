@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <url>http:// TODO link to public page, probably github.</url>
+    <url>https://github.com/fabiankessler/hostrules4j</url>
     <description>
         Provides basic functionality for host/ip-address matching with (wildcard) rules.
         Example: ip "123.123.123.123" matches the wildcard rule "123.123.123.*".

@@ -1,1 +1,2 @@
-TODO add text.
+Provides basic functionality for host/ip-address matching with (wildcard) rules.
+Example: ip "123.123.123.123" matches the wildcard rule "123.123.123.*".
