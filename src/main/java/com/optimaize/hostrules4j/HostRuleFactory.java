@@ -19,7 +19,7 @@ public class HostRuleFactory {
     private final List<SpecializedHostRuleFactory> factories;
 
     /**
-     * @param factories The order of the factories doesn't matter, it's the {@link com.optimaize.hostrules4j.rules.SpecializedHostRuleFactory#getPriority()}
+     * @param factories The order of the factories doesn't matter, it's the {@link SpecializedHostRuleFactory#getPriority()}
      *                  that matters.
      */
     public HostRuleFactory(@NotNull List<SpecializedHostRuleFactory> factories) {

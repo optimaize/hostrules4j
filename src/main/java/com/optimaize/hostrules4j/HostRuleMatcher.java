@@ -33,4 +33,11 @@ public class HostRuleMatcher {
         return false;
     }
 
+    /**
+     * @return <code>true</code> if the rules are empty.
+     */
+    public boolean isEmpty() {
+        return hostRules.isEmpty();
+    }
+
 }
