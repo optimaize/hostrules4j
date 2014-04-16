@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <url>https://github.com/fabiankessler/hostrules4j</url>
+    <url>https://github.com/optimaize/hostrules4j</url>
     <description>
         Provides basic functionality for host/ip-address matching with (wildcard) rules.
         Example: ip "123.123.123.123" matches the wildcard rule "123.123.123.*".
@@ -19,9 +19,28 @@
         <url>http://www.optimaize.com/</url>
     </organization>
 
+    <developers>
+        <developer>
+            <name>Fabian Kessler</name>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>LGPLv3</name>
+        </license>
+    </licenses>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.7</java.version>
     </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/optimaize/hostrules4j.git</connection>
+        <developerConnection>scm:git:git@github.com:optimaize/hostrules4j.git</developerConnection>
+        <url>http://github.com/optimaize/hostrules4j</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -47,19 +66,11 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.12</version>
-                <configuration>
-                    <skipTests>false</skipTests>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
         </plugins>
