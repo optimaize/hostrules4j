@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
  *
  * <p>Implementations must be immutable.</p>
  *
- * @author aa
+ *
  */
 public interface HostRule {
 

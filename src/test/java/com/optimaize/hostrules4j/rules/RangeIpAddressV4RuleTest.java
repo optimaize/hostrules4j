@@ -7,7 +7,7 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 /**
- * @author aa
+ *
  */
 public class RangeIpAddressV4RuleTest {
 

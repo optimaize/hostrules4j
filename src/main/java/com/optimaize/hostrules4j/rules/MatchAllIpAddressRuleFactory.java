@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.IllegalArgumentExcepti
 /**
  * A rule that only matches a single IPv4 address.
  *
- * @author aa
+ *
  */
 public final class MatchAllIpAddressRuleFactory implements SpecializedHostRuleFactory {
 

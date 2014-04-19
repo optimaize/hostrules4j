@@ -15,7 +15,7 @@ import java.util.Set;
 /**
  * A rule that matches multiple IPv4 addresses based on a wildcard.
  *
- * @author aa
+ *
  */
 final class WildcardIpAddressV4Rule implements IpAddressRule {
 

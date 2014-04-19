@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * A rule that only matches a single IPv4 address.
  *
- * @author aa
+ *
  */
 public final class ExactIpAddressV4RuleFactory implements SpecializedHostRuleFactory {
 

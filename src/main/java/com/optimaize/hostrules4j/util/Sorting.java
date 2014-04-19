@@ -9,7 +9,7 @@ import java.util.*;
  *
  * <p>NOTE: THIS CLASS IS COPY-PASTED FROM THE crema-collections LIBRARY TO AVOID THE DEPENDENCY.</p>
  *
- * @author aa
+ *
  */
 public class Sorting {
 

@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * A rule that only matches a single IPv4 address.
  *
- * @author aa
+ *
  */
 final class ExactIpAddressV4Rule implements IpAddressRule {
 

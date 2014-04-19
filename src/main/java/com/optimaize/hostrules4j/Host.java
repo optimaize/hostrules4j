@@ -9,7 +9,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.String;
  *
  * <p>Implementations must be immutable.</p>
  *
- * @author aa
+ *
  */
 public interface Host {
 

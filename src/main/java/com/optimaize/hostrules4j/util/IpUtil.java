@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.IllegalArgumentExcepti
 /**
  * Static utility methods for IP addresses.
  *
- * @author aa
+ *
  */
 public class IpUtil {
 

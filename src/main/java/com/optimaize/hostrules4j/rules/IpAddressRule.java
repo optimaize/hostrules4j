@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * A specialized {@link HostRule} that only matches for {@link Host hosts} of type {@link IpAddress ip address}.
  *
- * @author aa
+ *
  */
 public interface IpAddressRule extends HostRule {
 

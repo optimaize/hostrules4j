@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.String;
 /**
  * Factory for a specific {@link IpAddressRule}.
  *
- * @author aa
+ *
  */
 public interface SpecializedHostRuleFactory {
 

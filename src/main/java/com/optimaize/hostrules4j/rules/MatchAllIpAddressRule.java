@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * A rule that matches any ip address.
  *
- * @author aa
+ *
  */
 final class MatchAllIpAddressRule implements IpAddressRule {
 

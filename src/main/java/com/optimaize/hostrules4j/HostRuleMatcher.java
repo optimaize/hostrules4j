@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * Matcher to check {@link Host hosts} against 0-n {@link HostRule rules}.
  *
- * @author aa
+ *
  */
 public class HostRuleMatcher {
 

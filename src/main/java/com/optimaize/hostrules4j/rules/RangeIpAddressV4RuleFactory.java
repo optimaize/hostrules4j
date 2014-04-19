@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.IllegalArgumentExcepti
 /**
  * Factory for {@link RangeIpAddressV4Rule}.
  *
- * @author aa
+ *
  */
 public final class RangeIpAddressV4RuleFactory implements SpecializedHostRuleFactory {
 

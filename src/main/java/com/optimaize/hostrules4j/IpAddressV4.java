@@ -12,7 +12,7 @@ import java.util.List;
  *
  * <p>See: http://en.wikipedia.org/wiki/IPv4</p>
  *
- * @author aa
+ *
  */
 public class IpAddressV4 implements IpAddress {
 

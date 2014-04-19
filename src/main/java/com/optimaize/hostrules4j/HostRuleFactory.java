@@ -11,7 +11,7 @@ import java.util.*;
 /**
  * Creates {@link HostRule host rules} for strings.
  *
- * @author aa
+ *
  */
 public class HostRuleFactory {
 

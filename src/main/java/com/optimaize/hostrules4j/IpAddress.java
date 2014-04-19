@@ -5,7 +5,7 @@ package com.optimaize.hostrules4j;
  *
  * <p>See: http://en.wikipedia.org/wiki/IP_address</p>
  *
- * @author aa
+ *
  */
 public interface IpAddress extends Host {
 

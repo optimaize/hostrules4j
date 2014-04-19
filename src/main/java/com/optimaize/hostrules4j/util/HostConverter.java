@@ -8,7 +8,7 @@ import java.net.InetAddress;
 /**
  * ...
  *
- * @author aa
+ *
  */
 public class HostConverter {
 

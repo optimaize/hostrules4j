@@ -11,7 +11,7 @@ import static org.testng.Assert.*;
 /**
  * Tests the HostRuleMatcher, the HostRuleFactory, as well as several specialized rule and factory implementations.
  *
- * @author aa
+ *
  */
 public class HostRuleMatcherTest {
 

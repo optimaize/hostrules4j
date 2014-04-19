@@ -15,7 +15,7 @@ import java.util.Set;
 /**
  * A rule that matches multiple IPv4 addresses based on a range such as "123.123.123.80-90".
  *
- * @author aa
+ *
  */
 final class RangeIpAddressV4Rule implements IpAddressRule {
 

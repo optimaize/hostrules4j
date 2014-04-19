@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;import java.lang.IllegalArgumentExcepti
 /**
  * Factory for {@link WildcardIpAddressV4Rule}.
  *
- * @author aa
+ *
  */
 public final class WildcardIpAddressV4RuleFactory implements SpecializedHostRuleFactory {
 

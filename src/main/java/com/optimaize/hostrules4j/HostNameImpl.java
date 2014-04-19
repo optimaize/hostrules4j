@@ -3,7 +3,7 @@ package com.optimaize.hostrules4j;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author aa
+ *
  */
 public class HostNameImpl implements HostName {
 
