@@ -24,7 +24,7 @@ public class HostConverter {
             return new IpAddressV4(ip);
         } catch (IllegalArgumentException e) {
 //            new IpAddressV6(inetAddress.getHostAddress());
-            throw new UnsupportedOperationException("IPv6 not supported yet!");
+            throw new UnsupportedOperationException("IPv6 not supported yet: >>>"+ip+"<<< " + e.getMessage());
         }
     }
 
