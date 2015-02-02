@@ -101,11 +101,6 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
-                            <!--
-                            this is currently required when building on a machine with jdk8
-                            see http://stackoverflow.com/questions/15886209/maven-is-not-working-in-java-8-when-javadoc-tags-are-incomplete
-                            -->
-                            <additionalparam>-Xdoclint:none</additionalparam>
                         </configuration>
                     </execution>
                 </executions>
