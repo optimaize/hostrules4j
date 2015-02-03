@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/optimaize/hostrules4j.svg?branch=master)](https://travis-ci.org/optimaize/hostrules4j)
+
+
 Tiny Java library that provides basic functionality for host/ip-address matching with (wildcard) rules.
 Example: ip "123.123.123.123" matches the wildcard rule "123.123.123.*".
 
